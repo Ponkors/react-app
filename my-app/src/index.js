@@ -3,9 +3,12 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
     <React.StrictMode>
-        <div>JSX код</div>
+        <div style={{fontSize: 28}}>
+            <i>Components: </i>
+        </div>
         <App />
     </React.StrictMode>
 );
